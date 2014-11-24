@@ -1,0 +1,10 @@
+<%- if @backend_urls %>
+<% @backend_urls.each do |index,val| -%>
+backend<%= index %>=<%= val['protocol'] %>://<%= val['host'] %>:<%= val['port'] %><%= val['url'] %>
+<% end -%>
+<% end -%>
+
+#we get something like
+#backend1=https://192.168.2.58:8080/oneapi
+#backend2=https://192.168.2.59:8080/oneapi
+#backend3=https://192.168.2.60:8080/oneapi

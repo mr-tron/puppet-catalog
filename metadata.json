@@ -1,0 +1,23 @@
+{
+  "name": "mrtron-catalog",
+  "version": "0.2.0",
+  "author": "denis@subbot.in",
+  "license": "Licensed under (MIT License)",
+  "summary": "A module for export and import variable between hosts",
+  "source": "https://github.com/mrtron/puppet-catalog",
+  "project_page": "https://forge.puppetlabs.com/mrtron/catalog",
+  "issues_url": "https://github.com/mr-tron/puppet-catalog/issues",
+  "tags": ["variable", "variables", "export"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem":"RedHat",
+    "operatingsystemrelease":[ "6.0", "7.0" ]
+    },
+    {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": [ "12.04", "10.04" ]
+    }
+   ],
+  "dependencies": [
+  ]
+}
